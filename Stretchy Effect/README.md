@@ -3,7 +3,7 @@
 ![Platform iOS](https://img.shields.io/badge/Platform-iOS-blue.svg) ![Programming Language Swift](https://img.shields.io/badge/Programming_Language-Swift-orange.svg)
 
 
-Stretchy Effect is a cool effect which can be used in lieu of tableView header. When you scroll/pull down the tableView, the header gets zoomed in. I have used the following libraries to complete this demo app
+Stretchy Effect is a cool effect which can be used in lieu of tableView headerView. When the tableView is pulled down the headerView gets dragged and zoomed in. I have used the following libraries to complete this demo app
 
 
   - Alamofire to make HTTP requets
@@ -16,4 +16,4 @@ I used [Unsplash](https://unsplash.it/) REST API to get neat images. Luckily for
 
 > Here is the demo of Stretchy effect
 
-![](http://giphy.com/gifs/U5sbwbmox1iUw)
+![](http://i.giphy.com/U5sbwbmox1iUw.gif)
