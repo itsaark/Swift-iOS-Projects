@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		409626AFDDE80BA284858029 /* Pods_Stretchy_Effect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A524090DC830CB1D62C3291F /* Pods_Stretchy_Effect.framework */; };
+		DC05DB2F1DD8E4F300D695E9 /* CustomeUIImageViewClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC05DB2E1DD8E4F300D695E9 /* CustomeUIImageViewClass.swift */; };
 		DC096CD41DD84DB100410709 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC096CD31DD84DB100410709 /* AppDelegate.swift */; };
-		DC096CD61DD84DB100410709 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC096CD51DD84DB100410709 /* ViewController.swift */; };
 		DC096CD91DD84DB100410709 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC096CD71DD84DB100410709 /* Main.storyboard */; };
 		DC096CDB1DD84DB100410709 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC096CDA1DD84DB100410709 /* Assets.xcassets */; };
 		DC096CDE1DD84DB100410709 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC096CDC1DD84DB100410709 /* LaunchScreen.storyboard */; };
+		DC28081D1DD86B5E00204F4B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC28081C1DD86B5E00204F4B /* TableViewController.swift */; };
+		DC2808211DD86B8500204F4B /* ImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2808201DD86B8500204F4B /* ImageModel.swift */; };
+		DC2808231DD86C2C00204F4B /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2808221DD86C2C00204F4B /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A0599557F18795283F7DD6E3 /* Pods-Stretchy Effect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stretchy Effect.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Stretchy Effect/Pods-Stretchy Effect.debug.xcconfig"; sourceTree = "<group>"; };
+		A524090DC830CB1D62C3291F /* Pods_Stretchy_Effect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stretchy_Effect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A676644EDB0D671794936F8A /* Pods-Stretchy Effect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stretchy Effect.release.xcconfig"; path = "Pods/Target Support Files/Pods-Stretchy Effect/Pods-Stretchy Effect.release.xcconfig"; sourceTree = "<group>"; };
+		DC05DB2E1DD8E4F300D695E9 /* CustomeUIImageViewClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomeUIImageViewClass.swift; sourceTree = "<group>"; };
 		DC096CD01DD84DB100410709 /* Stretchy Effect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stretchy Effect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC096CD31DD84DB100410709 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DC096CD51DD84DB100410709 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DC096CD81DD84DB100410709 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DC096CDA1DD84DB100410709 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC096CDD1DD84DB100410709 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC096CDF1DD84DB100410709 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC28081C1DD86B5E00204F4B /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		DC2808201DD86B8500204F4B /* ImageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageModel.swift; sourceTree = "<group>"; };
+		DC2808221DD86C2C00204F4B /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				409626AFDDE80BA284858029 /* Pods_Stretchy_Effect.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4CD9BEAEBC1648DB350AD991 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A524090DC830CB1D62C3291F /* Pods_Stretchy_Effect.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9721A9AAD0DD4FE16EA599A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A0599557F18795283F7DD6E3 /* Pods-Stretchy Effect.debug.xcconfig */,
+				A676644EDB0D671794936F8A /* Pods-Stretchy Effect.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DC05DB2D1DD8E4E800D695E9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DC05DB2E1DD8E4F300D695E9 /* CustomeUIImageViewClass.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
 		DC096CC71DD84DB100410709 = {
 			isa = PBXGroup;
 			children = (
 				DC096CD21DD84DB100410709 /* Stretchy Effect */,
 				DC096CD11DD84DB100410709 /* Products */,
+				C9721A9AAD0DD4FE16EA599A /* Pods */,
+				4CD9BEAEBC1648DB350AD991 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +92,41 @@
 		DC096CD21DD84DB100410709 /* Stretchy Effect */ = {
 			isa = PBXGroup;
 			children = (
+				DC05DB2D1DD8E4E800D695E9 /* Helpers */,
+				DC28081F1DD86B6C00204F4B /* Model */,
+				DC28081E1DD86B6500204F4B /* Views */,
+				DC28081B1DD86B3E00204F4B /* Controller */,
 				DC096CD31DD84DB100410709 /* AppDelegate.swift */,
-				DC096CD51DD84DB100410709 /* ViewController.swift */,
 				DC096CD71DD84DB100410709 /* Main.storyboard */,
 				DC096CDA1DD84DB100410709 /* Assets.xcassets */,
 				DC096CDC1DD84DB100410709 /* LaunchScreen.storyboard */,
 				DC096CDF1DD84DB100410709 /* Info.plist */,
 			);
 			path = "Stretchy Effect";
+			sourceTree = "<group>";
+		};
+		DC28081B1DD86B3E00204F4B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DC28081C1DD86B5E00204F4B /* TableViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		DC28081E1DD86B6500204F4B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DC2808221DD86C2C00204F4B /* TableViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		DC28081F1DD86B6C00204F4B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DC2808201DD86B8500204F4B /* ImageModel.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +136,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC096CE21DD84DB100410709 /* Build configuration list for PBXNativeTarget "Stretchy Effect" */;
 			buildPhases = (
+				9988DE19249743750A1ACC83 /* [CP] Check Pods Manifest.lock */,
 				DC096CCC1DD84DB100410709 /* Sources */,
 				DC096CCD1DD84DB100410709 /* Frameworks */,
 				DC096CCE1DD84DB100410709 /* Resources */,
+				C7BA2A132BCDEB143221A9A8 /* [CP] Embed Pods Frameworks */,
+				FD348EA0AE9B328EA00E848C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,13 +200,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9988DE19249743750A1ACC83 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C7BA2A132BCDEB143221A9A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stretchy Effect/Pods-Stretchy Effect-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD348EA0AE9B328EA00E848C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stretchy Effect/Pods-Stretchy Effect-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DC096CCC1DD84DB100410709 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC096CD61DD84DB100410709 /* ViewController.swift in Sources */,
 				DC096CD41DD84DB100410709 /* AppDelegate.swift in Sources */,
+				DC05DB2F1DD8E4F300D695E9 /* CustomeUIImageViewClass.swift in Sources */,
+				DC2808231DD86C2C00204F4B /* TableViewCell.swift in Sources */,
+				DC2808211DD86B8500204F4B /* ImageModel.swift in Sources */,
+				DC28081D1DD86B5E00204F4B /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +376,7 @@
 		};
 		DC096CE31DD84DB100410709 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0599557F18795283F7DD6E3 /* Pods-Stretchy Effect.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = E696HLUBV9;
@@ -270,6 +390,7 @@
 		};
 		DC096CE41DD84DB100410709 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A676644EDB0D671794936F8A /* Pods-Stretchy Effect.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = E696HLUBV9;
@@ -300,6 +421,7 @@
 				DC096CE41DD84DB100410709 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
