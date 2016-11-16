@@ -8,4 +8,4 @@ Parallax Motion Effect is what we have on default iPhone lock screens. This effe
 
 > Here is the demo of Parallax Motion
 
-![](http://i.giphy.com/3oriNO1dKLeMxrOlYA.gif)
+![](http://i.giphy.com/3oz8xFG6tYpmDY745i.gif)
