@@ -1,13 +1,12 @@
-# Circular Transition Animation
+# Swift-iOS-Projects
 
-![Platform iOS](https://img.shields.io/badge/Platform-iOS-blue.svg) ![Programming Language Swift](https://img.shields.io/badge/Programming_Language-Swift-orange.svg)
+![Platform iOS](https://img.shields.io/badge/platform-iOS-blue.svg) ![Language Swift](https://img.shields.io/badge/language-Swift-orange.svg) [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/fold_left.svg?style=social&label=Follow%20%40_Aark)](https://twitter.com/_Aark)
 
-
-This is an emulation of a [youtube tutorial](https://www.youtube.com/channel/UCysEngjfeIYapEER9K8aikw). It's a neat transition animation for iOS. This can be used while popping a new view on top of rootViewController.
-
+This repo contains my pet projects that I'll constantly be building using Swift programming language. Most of them are broadly related to the following areas:
 
 
+    - Algorithms using Swift
+    - AI and Machine Learning projects using Swift
+    - Animations, Transitions and other cool effects in iOS
 
-> Here is a demo of the transition
-
-![](http://i.giphy.com/3oriO6Pj33Dws1lwJO.gif)
+ >  Initially, most of these projects would be a direct emulation(with little tweaks and customization) of the online tutorials. As I get better at this, I would be creating exciting projects on my own. Watch out!
