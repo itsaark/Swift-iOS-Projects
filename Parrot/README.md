@@ -15,6 +15,6 @@ I used [Unsplash](https://unsplash.it/) to generate images randomly
 
 
 
-> Here is the demo of the app
+> Here is a demo of the app
 
 ![](http://i.giphy.com/3oz8xXn8zDyPcpgzWo.gif)
