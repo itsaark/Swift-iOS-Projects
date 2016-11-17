@@ -6,7 +6,7 @@
 Stretchy Effect is a cool effect which can be used in lieu of tableView headerView. When the tableView is pulled down the headerView gets dragged and zoomed in. I have used the following libraries to complete this demo app
 
 
-  - Alamofire to make HTTP requets
+  - Alamofire to make HTTP requests
   - AlamofireImage to download images
   - SwiftyJSON to handle JSON data
 
