@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC068FAA1DDDFCD900E40E7A /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC068FA61DDDFCD900E40E7A /* Alamofire.framework */; };
+		DC068FAB1DDDFCD900E40E7A /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DC068FA61DDDFCD900E40E7A /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DC068FAC1DDDFCD900E40E7A /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC068FA71DDDFCD900E40E7A /* AlamofireImage.framework */; };
+		DC068FAD1DDDFCD900E40E7A /* AlamofireImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DC068FA71DDDFCD900E40E7A /* AlamofireImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DC068FAE1DDDFCD900E40E7A /* RestKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC068FA81DDDFCD900E40E7A /* RestKit.framework */; };
+		DC068FAF1DDDFCD900E40E7A /* RestKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DC068FA81DDDFCD900E40E7A /* RestKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DC068FB01DDDFCD900E40E7A /* VisualRecognitionV3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC068FA91DDDFCD900E40E7A /* VisualRecognitionV3.framework */; };
+		DC068FB11DDDFCD900E40E7A /* VisualRecognitionV3.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DC068FA91DDDFCD900E40E7A /* VisualRecognitionV3.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DC9121511DDD964B0052F21F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9121501DDD964B0052F21F /* AppDelegate.swift */; };
 		DC9121531DDD964B0052F21F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9121521DDD964B0052F21F /* ViewController.swift */; };
 		DC9121561DDD964B0052F21F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC9121541DDD964B0052F21F /* Main.storyboard */; };
@@ -14,7 +22,28 @@
 		DC91215B1DDD964B0052F21F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC9121591DDD964B0052F21F /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		DCA01CC71DDD9DD2004E4446 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DC068FAB1DDDFCD900E40E7A /* Alamofire.framework in Embed Frameworks */,
+				DC068FAD1DDDFCD900E40E7A /* AlamofireImage.framework in Embed Frameworks */,
+				DC068FAF1DDDFCD900E40E7A /* RestKit.framework in Embed Frameworks */,
+				DC068FB11DDDFCD900E40E7A /* VisualRecognitionV3.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		DC068FA61DDDFCD900E40E7A /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		DC068FA71DDDFCD900E40E7A /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = Carthage/Build/iOS/AlamofireImage.framework; sourceTree = "<group>"; };
+		DC068FA81DDDFCD900E40E7A /* RestKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RestKit.framework; path = Carthage/Build/iOS/RestKit.framework; sourceTree = "<group>"; };
+		DC068FA91DDDFCD900E40E7A /* VisualRecognitionV3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VisualRecognitionV3.framework; path = Carthage/Build/iOS/VisualRecognitionV3.framework; sourceTree = "<group>"; };
 		DC91214D1DDD964B0052F21F /* Parrot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parrot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC9121501DDD964B0052F21F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC9121521DDD964B0052F21F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,6 +58,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC068FAA1DDDFCD900E40E7A /* Alamofire.framework in Frameworks */,
+				DC068FAC1DDDFCD900E40E7A /* AlamofireImage.framework in Frameworks */,
+				DC068FAE1DDDFCD900E40E7A /* RestKit.framework in Frameworks */,
+				DC068FB01DDDFCD900E40E7A /* VisualRecognitionV3.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +71,10 @@
 		DC9121441DDD964B0052F21F = {
 			isa = PBXGroup;
 			children = (
+				DC068FA61DDDFCD900E40E7A /* Alamofire.framework */,
+				DC068FA71DDDFCD900E40E7A /* AlamofireImage.framework */,
+				DC068FA81DDDFCD900E40E7A /* RestKit.framework */,
+				DC068FA91DDDFCD900E40E7A /* VisualRecognitionV3.framework */,
 				DC91214F1DDD964B0052F21F /* Parrot */,
 				DC91214E1DDD964B0052F21F /* Products */,
 			);
@@ -74,6 +111,7 @@
 				DC9121491DDD964B0052F21F /* Sources */,
 				DC91214A1DDD964B0052F21F /* Frameworks */,
 				DC91214B1DDD964B0052F21F /* Resources */,
+				DCA01CC71DDD9DD2004E4446 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -185,7 +223,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -234,7 +272,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -259,7 +297,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = E696HLUBV9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Parrot/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.arjunkodur.Parrot;
@@ -272,7 +315,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = E696HLUBV9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Parrot/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.arjunkodur.Parrot;
@@ -300,6 +348,7 @@
 				DC9121611DDD964B0052F21F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
